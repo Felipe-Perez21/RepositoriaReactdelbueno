@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/RepositoriaReactdelbueno/static/css/main.a617e044.chunk.css",
+    "main.js": "/RepositoriaReactdelbueno/static/js/main.6a959901.chunk.js",
+    "main.js.map": "/RepositoriaReactdelbueno/static/js/main.6a959901.chunk.js.map",
+    "runtime-main.js": "/RepositoriaReactdelbueno/static/js/runtime-main.dccdbb41.js",
+    "runtime-main.js.map": "/RepositoriaReactdelbueno/static/js/runtime-main.dccdbb41.js.map",
+    "static/js/2.ab47ba1d.chunk.js": "/RepositoriaReactdelbueno/static/js/2.ab47ba1d.chunk.js",
+    "static/js/2.ab47ba1d.chunk.js.map": "/RepositoriaReactdelbueno/static/js/2.ab47ba1d.chunk.js.map",
+    "static/js/3.de474354.chunk.js": "/RepositoriaReactdelbueno/static/js/3.de474354.chunk.js",
+    "static/js/3.de474354.chunk.js.map": "/RepositoriaReactdelbueno/static/js/3.de474354.chunk.js.map",
+    "index.html": "/RepositoriaReactdelbueno/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/RepositoriaReactdelbueno/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.ab47ba1d.chunk.js.LICENSE.txt": "/RepositoriaReactdelbueno/static/js/2.ab47ba1d.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/RepositoriaReactdelbueno/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dccdbb41.js",
+    "static/js/2.ab47ba1d.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.6a959901.chunk.js"
+  ]
+}
