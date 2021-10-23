@@ -17,7 +17,7 @@ class Ticket extends Component{
                         <div key={index}>
                             <p><strong>{peli.nombre}</strong> {peli.idioma}</p>
                             <p><strong>{"Hora :"}</strong> {peli.horario}</p>
-                            <p><strong>{"Cantidad de boletos:"}</strong> <input type="number" min="1" max="10" value={peli.cantidad} onChange={()=>this.props.Calcular(peli)}></input></p>
+                            <p><strong>{"Cantidad de boletos:"}</strong> <input type="number" min="1" max="10" value={peli.cantidad} onChange={(e)=>this.props.Calcular(peli,e.target.value)}></input></p>
                             <p><strong>{"Total: "}</strong> ${peli.total*peli.cantidad}</p>
 
                             <div>

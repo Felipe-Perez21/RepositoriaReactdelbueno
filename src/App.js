@@ -4,6 +4,8 @@ import Header from './Departamento-de-componentes/Header';
 import Movies from './Departamento-de-componentes/Movies';
 import Ticket from './Departamento-de-componentes/Ticket';
 
+
+
 class App extends Component{
   // El state va aqui
   constructor() {
@@ -19,9 +21,11 @@ class App extends Component{
     };
   }
 
+
   // Las funciones van aqui 
   
   agregar=(_peli,_x)=>{
+
     const objpeliselect = {
       cantidad: 0,
       clasificacion: _peli.clasificacion,
@@ -35,54 +39,56 @@ class App extends Component{
     this.setState({
       compra: [objpeliselect]
     })
+
   }
 
-  Calcular=(_pelicalcular)=>{
-    let cantidadanteriormas1 = _pelicalcular.cantidad+1;
+  Calcular=(_pelicalcular,_e)=>{
+    console.log(_pelicalcular)
+    console.log(_e)
 
     let objpeliselect = {};
 
-    if(_pelicalcular.clasificacion === "A"){
-      objpeliselect = {
-        cantidad: cantidadanteriormas1,
-        clasificacion: _pelicalcular.clasificacion,
-        duracion: _pelicalcular.duracion,
-        horario: _pelicalcular.horario,
-        idioma: _pelicalcular.idioma,
-        nombre: _pelicalcular.nombre,
-        total: 50
-      }
-    }
-    else{
-      if(_pelicalcular.clasificacion === "B"){
-        console.log("pagas 80")
+    if(_e>=1){
+      if(_pelicalcular.clasificacion === "A"){
         objpeliselect = {
-          cantidad: cantidadanteriormas1,
+          cantidad: _e,
           clasificacion: _pelicalcular.clasificacion,
           duracion: _pelicalcular.duracion,
           horario: _pelicalcular.horario,
           idioma: _pelicalcular.idioma,
           nombre: _pelicalcular.nombre,
-          total: 80
+          total: 50
         }
       }
       else{
-        console.log("pagas 95")
-        objpeliselect = {
-          cantidad: cantidadanteriormas1,
-          clasificacion: _pelicalcular.clasificacion,
-          duracion: _pelicalcular.duracion,
-          horario: _pelicalcular.horario,
-          idioma: _pelicalcular.idioma,
-          nombre: _pelicalcular.nombre,
-          total: 95
+        if(_pelicalcular.clasificacion === "B"){
+          objpeliselect = {
+            cantidad: _e,
+            clasificacion: _pelicalcular.clasificacion,
+            duracion: _pelicalcular.duracion,
+            horario: _pelicalcular.horario,
+            idioma: _pelicalcular.idioma,
+            nombre: _pelicalcular.nombre,
+            total: 80
+          }
+        }
+        else{
+          objpeliselect = {
+            cantidad: _e,
+            clasificacion: _pelicalcular.clasificacion,
+            duracion: _pelicalcular.duracion,
+            horario: _pelicalcular.horario,
+            idioma: _pelicalcular.idioma,
+            nombre: _pelicalcular.nombre,
+            total: 95
+          }
         }
       }
+      this.setState({
+        compra: [objpeliselect]
+      })
     }
 
-    this.setState({
-      compra: [objpeliselect]
-    })
   }
 
   EliminarCompra=()=>{
@@ -93,7 +99,7 @@ class App extends Component{
   }
 
   Comprar=(_cantidad)=>{
-    if(_cantidad>1 && _cantidad<11){
+    if(_cantidad>=1 && _cantidad<11){
       alert("Gracias por su compra :)")
       this.setState({
         compra:[],
@@ -102,6 +108,7 @@ class App extends Component{
     else{
       alert("Checa tu numero de boletos :/")
     }
+
   }
   
   
