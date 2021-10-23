@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/RepositorioReactdelbueno/static/css/main.a617e044.chunk.css",
-    "main.js": "/RepositorioReactdelbueno/static/js/main.eeb43093.chunk.js",
-    "main.js.map": "/RepositorioReactdelbueno/static/js/main.eeb43093.chunk.js.map",
-    "runtime-main.js": "/RepositorioReactdelbueno/static/js/runtime-main.f4d97bf9.js",
-    "runtime-main.js.map": "/RepositorioReactdelbueno/static/js/runtime-main.f4d97bf9.js.map",
-    "static/js/2.ab47ba1d.chunk.js": "/RepositorioReactdelbueno/static/js/2.ab47ba1d.chunk.js",
-    "static/js/2.ab47ba1d.chunk.js.map": "/RepositorioReactdelbueno/static/js/2.ab47ba1d.chunk.js.map",
-    "static/js/3.de474354.chunk.js": "/RepositorioReactdelbueno/static/js/3.de474354.chunk.js",
-    "static/js/3.de474354.chunk.js.map": "/RepositorioReactdelbueno/static/js/3.de474354.chunk.js.map",
+    "main.css": "/RepositorioReactdelbueno/static/css/main.a404f3fc.chunk.css",
+    "main.js": "/RepositorioReactdelbueno/static/js/main.54788601.chunk.js",
+    "main.js.map": "/RepositorioReactdelbueno/static/js/main.54788601.chunk.js.map",
+    "runtime-main.js": "/RepositorioReactdelbueno/static/js/runtime-main.70e423da.js",
+    "runtime-main.js.map": "/RepositorioReactdelbueno/static/js/runtime-main.70e423da.js.map",
+    "static/js/2.3b255f2f.chunk.js": "/RepositorioReactdelbueno/static/js/2.3b255f2f.chunk.js",
+    "static/js/2.3b255f2f.chunk.js.map": "/RepositorioReactdelbueno/static/js/2.3b255f2f.chunk.js.map",
+    "static/js/3.fecd927f.chunk.js": "/RepositorioReactdelbueno/static/js/3.fecd927f.chunk.js",
+    "static/js/3.fecd927f.chunk.js.map": "/RepositorioReactdelbueno/static/js/3.fecd927f.chunk.js.map",
     "index.html": "/RepositorioReactdelbueno/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/RepositorioReactdelbueno/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.ab47ba1d.chunk.js.LICENSE.txt": "/RepositorioReactdelbueno/static/js/2.ab47ba1d.chunk.js.LICENSE.txt",
-    "static/media/sistemasolar.4671a03b.png": "/RepositorioReactdelbueno/static/media/sistemasolar.4671a03b.png"
+    "static/css/main.a404f3fc.chunk.css.map": "/RepositorioReactdelbueno/static/css/main.a404f3fc.chunk.css.map",
+    "static/js/2.3b255f2f.chunk.js.LICENSE.txt": "/RepositorioReactdelbueno/static/js/2.3b255f2f.chunk.js.LICENSE.txt",
+    "static/media/lamagiadelcine.176bcb40.jpg": "/RepositorioReactdelbueno/static/media/lamagiadelcine.176bcb40.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4d97bf9.js",
-    "static/js/2.ab47ba1d.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.eeb43093.chunk.js"
+    "static/js/runtime-main.70e423da.js",
+    "static/js/2.3b255f2f.chunk.js",
+    "static/css/main.a404f3fc.chunk.css",
+    "static/js/main.54788601.chunk.js"
   ]
 }
